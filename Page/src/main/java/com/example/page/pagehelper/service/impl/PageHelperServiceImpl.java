@@ -30,7 +30,7 @@ public class PageHelperServiceImpl implements PageHelperService {
         List<PageHelperEntity> empList = pageHelperMapper.page();
         //获取查询结果
         Page<PageHelperEntity> p = (Page<PageHelperEntity>) empList;
-        //封装PageBean
+        //封装Page
         PageResult pageResult = new PageResult(p.getTotal(), p.getResult());
         return pageResult;
     }

@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.excel.easyexcel.entity.SkuEntity;
 import com.example.excel.easyexcel.listener.SkuListener;
 import com.example.excel.easyexcel.mapper.SkuDao;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -17,6 +18,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 @Service
+@Slf4j
 public class SkuServiceImpl extends ServiceImpl<SkuDao, SkuEntity> implements SkuService{
     @Autowired
     private SkuListener skuListener;

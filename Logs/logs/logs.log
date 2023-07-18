@@ -1,0 +1,6 @@
+myDemo 2023-07-18 21:39:46.119 WARN com.example.logs.TestLogback.test 测试一下 
+myDemo 2023-07-18 21:39:46.121 ERROR com.example.logs.TestLogback.test 测试一下 
+logs 2023-07-18 21:42:10.488 WARN com.example.logs.TestLogback.test 测试一下 
+logs 2023-07-18 21:42:10.489 ERROR com.example.logs.TestLogback.test 测试一下 
+logs 2023-07-18 21:44:02.652 WARN com.example.logs.TestLogback.test 测试一下 
+logs 2023-07-18 21:44:02.653 ERROR com.example.logs.TestLogback.test 测试一下 
